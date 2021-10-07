@@ -1,0 +1,103 @@
+/* MainForm */
+.boardWrapper {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    z-index: 50;
+    border: 1px solid #369CB7;
+    margin-top: 25px;
+
+}
+.boardContainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* MainForm */
+.mainFormWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainFormContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.submitButton {
+    padding: 20px;
+    background-color: #369CB7;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 100px;
+    width: 200px;
+
+}
+
+/* AngelForm */
+.angleFormContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.angleSymbol {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.angelInput {
+    margin-left: 5px;
+    height: 40px;
+    min-width: 70px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #369CB7;
+    border-radius: 5px;
+}
+
+/* Protractor */
+.protractorContainer {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    z-index: 5;
+}
+
+.protractor {
+    opacity: 0.9;
+}
+
+.corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
+
+.cornerLeft {
+    bottom: 5px;
+}
+
+.cornerRight {
+    bottom: 5px;
+    right: 0;
+}
